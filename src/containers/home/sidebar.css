@@ -1,0 +1,76 @@
+.sidebar{
+    max-width: 230px;
+    max-height: 340px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(91, 137, 164, 0.25);
+    border-radius: 5px;
+}
+.sidebar__wrapper{
+    margin: 15px;
+}
+.sidebar__title{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+}
+.sidebar__buttons-panel{
+    display: flex;
+    max-width: 200px;
+    width: 100%;
+}
+.sidebar__button{
+    outline: none;
+    width: 68px;
+    height: 40px;
+    border: 1px solid #d2d5d6;
+    background-color: #ffffff;
+    color: #2196f3;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.sidebar__button_active{
+    background-color: #2196f3;
+    border: 1px solid #2196f3;
+    color: #ffffff;
+}
+.sidebar__button_active:hover{
+    background-color: #2196f3;
+    border: 1px solid #2196f3;
+    color: #2196f3;
+}
+.sidebar__button:hover{
+    border: 1px solid #64b5f5;
+    background-color: #f2fcff;
+}
+
+.sidebar__button_left{
+    border-radius: 5px 0 0 5px;
+}
+.sidebar__button_right{
+    border-radius: 0 5px 5px 0;
+}
+.sidebar__stops{
+    list-style: none;
+    padding: 0;
+}
+.stops__list-item{
+    color: #4a4a4a;
+    font-size: 13px;
+
+}
+.stops__list-item:hover{
+    background-color: #f1fcff;
+}
+.stops__list-item-checkbox-label{
+    height: 36px;
+    width: 100%;
+}

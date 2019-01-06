@@ -1,0 +1,83 @@
+.ticket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 560px;
+    height: 160px;
+    width: 100%;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(91, 137, 164, 0.25);
+    border-radius: 5px;
+
+}
+.ticket__side{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 200px;
+    border-right: solid 1px #eceff1;
+}
+.ticket__logo{
+    width: 120px;
+    height: 35px;
+    margin: 20px 20px 10px 20px;
+
+}
+.ticket__side-button{
+    color: #fff;
+    border: none;
+    width: 160px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #ff6d00;
+    margin: 10px 20px 20px 20px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1), 0 1px 0 #d64d08;
+}
+.ticket__side-button:hover {
+    position: relative;
+    top: 1px;
+    box-shadow:none;
+}
+
+.ticket__section{
+    display: flex;
+    flex-flow: column wrap;
+}
+.ticket__wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+}
+
+
+.ticket__stops{
+text-transform: uppercase;
+    width: 110px;
+    align-self: flex-start;
+    text-align: center;
+    color: #8b9497;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12.1px;
+}
+.ticket__time{
+    color: #4a4a4a;
+    font-size: 32px;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+.ticket__name{
+    color: #4a4a4a;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.ticket__date{
+    color: #8b9497;
+    font-size: 12px;
+    line-height: 18px;
+}
