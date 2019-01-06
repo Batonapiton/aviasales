@@ -1,7 +1,7 @@
 {
   "name": "aviasales",
   "private": true,
-  "homepage": "https://create-react-app-redux.now.sh",
+  "homepage": "https://aviasales.herokuapp.com",
   "scripts": {
     "deploy": "now && now alias",
     "start": "react-scripts start",
