@@ -9,7 +9,7 @@ import {
 export const getTickets = ()=>dispatch => {
 
   dispatch(ticketsLoadingBegin());
-  return fetch('http://localhost:3000/tickets')
+  return fetch('https://jsonserverbat.herokuapp.com/tickets')
     .then(result => result.json())
     .then(tickets => dispatch(ticketsLoadingSuccess(tickets)))
     .catch(error => dispatch(ticketsLoadingFail(error)))
